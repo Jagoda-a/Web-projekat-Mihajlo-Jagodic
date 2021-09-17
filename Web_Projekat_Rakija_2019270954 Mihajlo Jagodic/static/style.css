@@ -1,0 +1,43 @@
+table, th, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+button{
+    margin-left: 20px;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.1)), url('./pictures/19.jpg');
+    
+}
+label, input{
+    margin-left: 10px;
+}
+
+.bojab{
+    color: white;
+}
+
+.container{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+
+.login{
+    margin-top: 40px;
+    background-color: #fff;
+    color:black;
+}
